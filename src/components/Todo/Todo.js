@@ -5,8 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="Todo">
-        <p><strong>Text: </strong>{this.props.text}</p>
-        <p><strong>Added By: </strong>{this.props.addedBy}</p>
+        <p><strong>id: </strong>{this.props.id}</p>
+        <p><strong>text: </strong>{this.props.text}</p>
       </div>
     );
   }
